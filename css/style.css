@@ -1,0 +1,31 @@
+/* Header */
+header {
+    background-color:#E6E6E6;
+    text-align: center;
+}
+/*  Main */
+
+h1 {
+    color: #005677;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+h2 {
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+/*  Footer */
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #005677
+    }
+    span {
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #005677;
+        font-weight: bold;
+    }
+
+
