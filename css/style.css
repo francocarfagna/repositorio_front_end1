@@ -1,0 +1,36 @@
+
+body {background-image:url('../images/backgroud_body.jpg') ;}
+/* header */
+.fondo {
+    background-image:  url('../images/michaelsco.jpeg') ;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: 2px black;
+    height: 150px;
+    width: 100%;
+    
+}
+
+/* main */
+
+h1 {
+    background-color: #13757E;
+    background-position: left;
+    text-align: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 30px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.skills {
+    background-color: #7cbebd96 ;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* footer */
+
+.redes {
+    text-align: center;
+}
