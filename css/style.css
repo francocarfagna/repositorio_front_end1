@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: 'roboto', sans-serif;
+    
+}
+
+/* header */
+header  {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    
+}
+/* Fin del header */
+
+/* Barra de navegacion */
+.navegacion {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+/* Fin barra de navegacion */
+
+/* Banner Principal */
+.bannerPrincipal {
+    background-image: url(/images/bowl-and-pet-daities-on-green-background_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    text-align: center;
+    width: 100%;
+}
+.bienvenida {
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    height: 54px;
+    text-align: center;
+}
+
+#comederoDescuento {
+    color: #3C2313;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+#comederos {
+    background-color: #F0A83E;
+    background-size: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* Banner Principal */
+
+/* Patita Principal */
+
+.patita {
+    text-align: center;
+}
+/* Fin Patita Principal */
+
+/* Productos */
+
+.productosDestacados {
+    color: #3C2313;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navegacionProductos {
+    color: #666666;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.productos {
+    font-weight: 500;
+    font-size: 15px;
+    font-style: medium;
+}
+
+.price {
+    color: #F0A83E;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 500;
+}
+/* Fin productos */
+
+/* Contacto */
+
+.contacto {
+    background-color: #3C2313;
+}
+
+.titulosContactos {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.refContactos {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+/* Fin Contacto */
+
+/* Derechos */
+
+.derechosReservados {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
