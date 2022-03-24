@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.header {
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+}
+.descuento {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+/* fin del header */
+
+/* inicio del nav */
+
+/* Heroes */
+
+.cajaHeroes {
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.heroes {
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 28px;
+    left: 28px;
+    
+}
+
+/* fin del nav */
+
+/* inicio del body */
+
+/* batman */
+
+.batman {
+    position: absolute;
+    height: 527px;
+    width: 300px;
+    background-color: lightgrey;
+    border-top-left-radius: 50vh;
+    border-top-right-radius: 50vh;
+    top: 294px;
+    left: 32px;
+}
+
+.batmanProfile {
+    border-radius: 50vh;
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    right: 90px;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 1px 5px 20px 3px;
+}
+
+
+.batmanTitle {
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 89px;
+    right: 89px;
+    bottom: 227px;
+    margin: 0%;
+}
+
+.batmanText {
+    font-family: 'roboto', sans-serif;
+    color: #333333;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    bottom: 104px;
+    left: 16px;
+}
+
+.batmanButton {
+    position: absolute;
+    bottom: 18.48px;
+    left: 85px;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.batmanButtonText {
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    color: #F3F3F3;
+    padding-left: 37px;
+    padding-top: 15px;
+    padding-bottom: 15.52px;
+    padding-right: 35.78px;
+}
+
+.batmanHeart{
+    z-index: 10;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+}
+
+/* Fin batman */
+
+
+
+
+
+/* harleyQuinn */
+
+.harleyQuinn {
+    position: absolute;
+    height: 527px;
+    width: 300px;
+    background-color: lightgrey;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    top: 293px;
+    left: 362px;
+}
+
+.harleyProfile {
+    border-radius: 50vh;
+    position: absolute;
+    display: block;
+    top: 128px;
+    left: 90px;
+    right: 90px;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 1px 5px 20px 3px;
+}
+
+.harleyTitle {
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    text-align:center;
+    left: 65px;
+    right: 64px;
+    bottom: 227px;
+}
+
+.harleyText {
+    font-family: 'roboto', sans-serif;
+    color: #333333;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    bottom: 104px;
+    left: 16px;
+}
+
+.harleyButton {
+    position: absolute;
+    bottom: 18.48px;
+    left: 85px;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.harleyButtonText {
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    color: #F3F3F3;
+    padding-left: 37px;
+    padding-top: 15px;
+    padding-bottom: 15.52px;
+    padding-right: 35.78px;
+}
+
+.harleyHeart{
+    z-index: 10;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+}
+
+/* Fin batman */
+
+
+
+
+
+
+/* batman2 */
+
+.batman2 {
+    position: absolute;
+    height: 527px;
+    width: 300px;
+    background-color: lightgrey;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    top: 294px;
+    left: 692px;
+}
+
+.batmanProfile2 {
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 128px;
+    left: 90px;
+    right: 90px;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 1px 5px 20px 3px;
+}
+
+.batmanTitle2 {
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 89px;
+    right: 89px;
+    bottom: 227px;
+}
+
+.batmanText2 {
+    font-family: 'roboto', sans-serif;
+    color: #333333;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    bottom: 104px;
+    left: 16px;
+}
+
+.batmanButton2 {
+    position: absolute;
+    bottom: 18.48px;
+    left: 85px;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.batmanButtonText2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    color: #F3F3F3;
+    padding-left: 37px;
+    padding-top: 15px;
+    padding-bottom: 15.52px;
+    padding-right: 35.78px;
+}
+
+.batmanHeart2{
+    z-index: 10;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+}
+
+/* Fin batman2 */
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    top: 934px;
+    background-color: #00669F;
+    width: 100%;
+    height: 51px;
+}
+
+.textoFooter {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: #FFF9F9;
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+
