@@ -78,7 +78,7 @@ header {
 
 /* Banner Principal */
 .bannerPrincipal {
-    background-image: url(./images/bowl-and-pet-daities-on-green-background_1.png);
+    background-image: url(/images/bowl-and-pet-daities-on-green-background_1.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 409px;
