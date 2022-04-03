@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-primario: #F0A83E;
+    --color-secundario: #3C2313;
+    --color-terciario: #222222;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+/* header */
+header {
+    background-color: var(--color-terciario);
+    color: #F3F3F3;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    height: 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header__ofertas {
+    display: flex;
+    justify-content: center;
+    flex-grow: .13;
+}
+
+.header__configuracion {
+    display: flex;
+    flex-grow: .10;
+    justify-content: center;
+}
+.header__configuracion_esp {
+    margin: 1rem;
+}
+.header__configuracion_arg {
+    margin: 1rem;
+}
+/* Fin del header */
+
+/* Barra de navegacion */
+.navegacion {
+    align-items: center;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    height: 6.2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.navegacion__logo {
+    display: flex;
+    flex-grow: .1;
+    padding-left: 4rem;
+    justify-content: left;
+}
+.navegacion__categorias {
+    display: flex;
+    padding-right: 4rem;
+}
+.navegacion__categorias-1 {
+    margin: 1rem;
+}
+/* Fin barra de navegacion */
+
+/* Banner Principal */
+.bannerPrincipal {
+    background-image: url(/images/bowl-and-pet-daities-on-green-background_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+}
+.bienvenida {
+    color: var(--color-secundario);
+    font-size: 3rem;
+    padding: 1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+}
+
+#comederoDescuento {
+    display: flex;
+    color: var(--color-secundario);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1.2rem;
+    margin-right: 8.3rem;
+}
+
+#comederos {
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-right: 10.7rem;
+}
+
+/* Banner Principal */
+
+/* Patita Principal */
+
+.patita {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+/* Fin Patita Principal */
+
+/* Productos */
+
+.productosDestacados {
+    color:var(--color-secundario);
+    font-size: 4rem;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+
+.navegacionProductos {
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4.9rem;
+}
+
+.productos {
+    font-weight: 500;
+    font-size: 15px;
+    font-style: medium;
+    display: flex;
+    justify-content: space-evenly;
+}
+.titulo_producto {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.price {
+    color: #F0A83E;
+    font-size: 1.5rem;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+}
+/* Fin productos */
+
+/* Contacto */
+
+.barraContacto {
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.contacto__logo-footer {
+    position: relative;
+    right: 7.4rem;
+}
+.contacto {
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    left: 6rem;
+}
+.contacto__maps {
+    display: flex;
+    height: 6.6rem;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 17.9rem;
+}
+.contacto__maps-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacto__phone {
+    display: flex;
+    height: 6.6rem;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 18.1rem;
+}
+
+.contacto__phone-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto__email {
+    display: flex;
+    height: 6.6rem;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 25.9rem;
+}
+.contacto__email-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulosContactos {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.refContactos {
+    color: #8A8787;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* Fin Contacto */
+
+/* Derechos */
+
+.derechosReservados {
+    background-color: var(--color-terciario);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.4rem;
+    text-align: center;
+}
+/* Fin derechos */
